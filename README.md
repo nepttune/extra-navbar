@@ -1,2 +1,2 @@
-# extra-navbar
-Bonus navbar component
+# Extra navbar
+:heavy_plus_sign: Bonus navbar component
