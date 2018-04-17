@@ -39,8 +39,10 @@ Parameter array has to follow format of following example. There is some clarify
 
 ```
 services:
-    menu:
-        class: Peldax\NetteInit\Component\ConfigNavbar(%configNavbar%)
+    configNavbar:
+        implement: Nepttune\Component\IConfigNavbarFactory
+        arguments:
+          - '%configNavbar%'
 parameters:
     configNavbar:
         brand:
