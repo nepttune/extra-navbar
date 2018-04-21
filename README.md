@@ -2,6 +2,13 @@
 
 :heavy_plus_sign: Bonus navbar component
 
+![Packagist](https://img.shields.io/packagist/dt/nepttune/extra-navbar.svg)
+![Packagist](https://img.shields.io/packagist/v/nepttune/extra-navbar.svg)
+[![CommitsSinceTag](https://img.shields.io/github/commits-since/nepttune/extra-navbar/v4.1.4.svg?maxAge=600)]()
+
+[![Code Climate](https://codeclimate.com/github/nepttune/extra-navbar/badges/gpa.svg)](https://codeclimate.com/github/nepttune/extra-navbar)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nepttune/extra-navbar/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nepttune/extra-navbar/?branch=master)
+
 ## Introduction
 
 This package contains component designed for generating static Bootstrap 4 navbar.
