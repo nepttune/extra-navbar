@@ -14,7 +14,7 @@ declare(strict_types = 1);
 
 namespace Nepttune\Component;
 
-final class ConfigNavbar extends BaseComponent
+final class ConfigNavbar extends \Nette\Application\UI\Control
 {
     /** @var array */
     protected $config;
@@ -33,5 +33,12 @@ final class ConfigNavbar extends BaseComponent
         $this->template->brand = isset($this->config['brand']) ? $this->config['brand'] : false;
         $this->template->class = isset($this->config['class']) ? $this->config['class'] : false;
         $this->template->items = $this->config['items'];
+    }
+    
+    public function render() : void
+    {
+        $this->beforeRender();
+        $this->template->setFile(__DIR__ . '/ConfigNavbar.latte');
+        $this->template->render();
     }
 }
