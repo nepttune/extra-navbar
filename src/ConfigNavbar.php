@@ -20,9 +20,7 @@ final class ConfigNavbar extends \Nette\Application\UI\Control
     protected $config;
 
     public function __construct(array $config)
-    {
-        parent::__construct();
-        
+    {   
         $this->config = $config;
     }
 
